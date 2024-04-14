@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cloudflare Chatbot</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <video autoplay muted loop id="background-video">
+      <source src="video.mp4" type="video/mp4" />
+      Your browser does not support background videos.
+    </video>
+
+    <div id="chatContainer">
+      <div id="chatHistory"></div>
+      <textarea id="userInput" placeholder="Type your message..."></textarea>
+      <div id="buttonContainer">
+        <button id="send">Send</button>
+        <button id="clear">Clear</button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
